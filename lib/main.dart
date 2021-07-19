@@ -32,9 +32,9 @@ class MyApp extends StatelessWidget {
         '/forgot_password': (BuildContext context) => ForgotPassword(),
         '/verify_password': (BuildContext context) => VerifyPasswordScreen(),
         '/create_password': (BuildContext context) => CreatePasswordScreen(),
-        '/create_profile': (BuildContext context) => CreateProfileScreen(),
-        '/notify_topics': (BuildContext context) => NotifyTopics(),
-        '/notification_accept': (BuildContext context) => NotificationAccept(),
+        // '/create_profile': (BuildContext context) => CreateProfileScreen(),
+        // '/notify_topics': (BuildContext context) => NotifyTopics(),
+        // '/notification_accept': (BuildContext context) => NotificationAccept(),
       },
       home: LoginScreen(),
     );
